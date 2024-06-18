@@ -18,6 +18,16 @@
 
 }
 
+.wasap {
+        position: fixed;
+        width: 60px;
+        height: 60px;
+        bottom: 40px;
+        right: 40px;
+         z-index: 1000;
+    }
+
+
 body {
     background-color: var(--black);
 }
