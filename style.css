@@ -71,13 +71,18 @@ section{
 }
 
 .icones img {
-    margin: 1rem;
     cursor: pointer;
+    margin: 0.3rem;
+    cursor: pointer;
+    border-radius: 50%;
+    padding: 1rem;
 }
 
 .icones img:hover {
     width: 35px;
     height: 35px;
+    background-color: var(--main-color);
+
 }
 
 .img-logo {
@@ -118,15 +123,18 @@ section{
 
 .content h3 {
     color: #fff;
-    font-size: 6 rem;
+    font-size: 5rem;
+    letter-spacing: 0.1rem;
 }
 
 .content p {
-    color: #fff;
+    color: #ffffff;
     font-size: 2rem;
     font-weight: 100;
     line-height: 1.8;
-    padding: 1rem 0;
+    padding: 1rem 0;    
+    text-transform:none;
+    text-shadow: black 0.2em 0.2em 0.3em ;
 }
 
 .title {
@@ -145,7 +153,7 @@ section{
 .sobre .row {
     align-items: center;
     display: flex;
-    background-color: #353434e8;
+    background-color: #1e1d1de8;
     gap: 1.5rem;
 
 }
@@ -163,6 +171,7 @@ section{
     color: #fff;
     padding: 1rem 0;
     line-height: 1.8;
+    
 }
 
 .sobre-img {
@@ -247,22 +256,3 @@ color: var(--black);
     flex-direction: column;
 }
 
-.footer {
-    text-align: center;
-}
-
-.footer .social-media {
-    padding: 1rem 0;
-}
-
-.footer .social-media img {
-    margin: 0.3rem;
-    cursor: pointer;
-    border-radius: 50%;
-    padding: 1rem;
-  
-}
-
-.footer .social-media img:hover {
-    background-color: var(--main-color);
-}
